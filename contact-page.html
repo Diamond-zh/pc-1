@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>联系页面</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/contact.css" />
+	</head>
+
+	<body>
+		<!--背景图-->
+		<div class="contact_img">
+			<img src="img/banner.jpg" />
+		</div>
+		<div class="case_container contact">
+			<div class="contact_box">
+				<div class="clearfix">
+					<div class="contact_left fl">
+						<div class="div_img">
+							<img src="img/time.png" />
+						</div>
+						<div class="time">
+							<span class="wrap">
+						    <h2>
+							    <span></span>
+							<span></span>
+							<span></span>
+							</h2>
+							<h4><span></span></h4>
+							</span>
+						</div>
+					</div>
+					<div class="contact_middle fl">
+						<ul>
+							<li class="middle">工作时间咨询电话</br>&nbsp;</li>
+							<li class="middle_top">400-629-8112(固话)</li>
+							<li class="middle_top">15376732828(手机)</li>
+
+						</ul>
+						<ul class="middle_two">
+							<li class="middle">节假日业务咨询电话</br>&nbsp;</li>
+							<li class="middle_top">15376732828</li>
+							<li class="middle_top">Mr.张</li>
+
+						</ul>
+						<ul class="middle_two">
+							<li class="middle">我们的地址</br>&nbsp;</li>
+							<li class="middle_top">安徽省安庆市迎江区皖江大道绿地迎江世纪城2栋1119室</li>
+						</ul>
+					</div>
+					<div class="contact_right fr">
+						<ul>
+							<li class="middle">点击按钮进行在线咨询</br>&nbsp;</li>
+							<a href="#">
+								<li class="contact_right_li">在线咨询</li>
+							</a>
+						</ul>
+						<ul class="middle_two">
+							<li class="middle">联系邮件/QQ/微信</br>&nbsp;</li>
+							<li class="middle_top">b@bandns.com</li>
+							<li class="middle_top">QQ:29525487</li>
+							<li class="middle_top">微信号:bdesigncom</li>
+						</ul>
+						<ul class="middle_two">
+							<li class="middle">我们的电话</br>&nbsp;</li>
+							<li class="middle_top">400-629-8112(固话)/15376732828(手机)</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--头部菜单-->
+		<div class="case_header">
+			<div class="case_container">
+				<div class="case_logo fl">
+					<a href="index.html"><img src="imgs/logo.png" /></a>
+				</div>
+				<div class="case_header_box fr">
+					<div class="case_header_box1">
+						<div class="case_header_w1">
+							联系
+						</div>
+						<div class="case_header_w2">
+							<a href="contact-page.html">联系</a>
+						</div>
+					</div>
+				</div>
+				<div class="case_header_box fr">
+					<div class="case_header_box1">
+						<div class="case_header_w1">
+							关于
+						</div>
+						<div class="case_header_w2">
+							<a href="relative-page.html">关于</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="case_header_box fr">
+					<div class="case_header_box1">
+						<div class="case_header_w1">
+							服务
+						</div>
+						<div class="case_header_w2">
+							<a href="service-page.html">服务</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="case_header_box fr">
+					<div class="case_header_box1">
+						<div class="case_header_w1">
+							体验
+						</div>
+						<div class="case_header_w2">
+							<a href="experience-page.html">体验</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="case_header_box fr">
+					<div class="case_header_box1">
+						<div class="case_header_w1">
+							优势
+						</div>
+						<div class="case_header_w2">
+							<a href="superiority-page.html">优势</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="case_header_box fr">
+					<div class="case_header_box1">
+						<div class="case_header_w1">
+							案例
+						</div>
+						<div class="case_header_w2">
+							<a href="case-page.html">案例</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="case_header_box fr">
+					<div class="case_header_box1">
+						<div class="case_header_w1">
+							首 页
+						</div>
+						<div class="case_header_w2">
+							<a href="index.html">首 页</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="clear">
+
+				</div>
+			</div>
+		</div>
+		<!--右侧固定定位-->
+		<div class="case_fixed">
+			<ul>
+				<li>
+					<a href="#"><img src="case_img/img58.png" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="case_img/img59.png" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="case_img/img611.png" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="case_img/email.png" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="case_img/img60.png" /></a>
+				</li>
+			</ul>
+		</div>
+
+	</body>
+
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$.each($(".case_header_box1"), function() {
+				$(this).hover(function() {
+					$(this).find(".case_header_w1").stop(true).animate({
+						top: -22
+					});
+					$(this).find(".case_header_w2").stop(true).animate({
+						top: 0
+					});
+				}, function() {
+					$(this).find(".case_header_w1").stop(true).animate({
+						top: 0
+					});
+					$(this).find(".case_header_w2").stop(true).animate({
+						top: 22
+					});
+				});
+			});
+
+		})
+	</script>
+	<!--右侧固定定位事件-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$.each($(".case_fixed li"), function() {
+				$(this).hover(function() {
+					$(this).stop(true).animate({
+						marginLeft: -110
+					}, 400);
+
+				}, function() {
+					$(this).stop(true).animate({
+						marginLeft: 0
+					}, 400);
+				})
+			});
+
+		})
+	</script>
+	<!--时间-->
+	<script type="text/javascript">
+		var oHour = document.querySelectorAll(".contact_left h2 span")[0];
+		var oMinute = document.querySelectorAll(".contact_left h2 span")[1];
+		var oSecond = document.querySelectorAll(".contact_left h2 span")[2];
+		var oDay = document.querySelectorAll(".contact_left .time span h4 span")[0];
+
+		function time() {
+			var now = new Date(); //毫秒
+			var hour = now.getHours();
+			var minute = now.getMinutes();
+			var second = now.getSeconds();
+			var day = now.getDay();
+			var N = ["日", "一", "二", "三", "四", "五", "六"];
+			oHour.innerHTML = hour + "时";
+			oMinute.innerHTML = minute + "分";
+			oSecond.innerHTML = second + "秒";
+
+			function convertToChinese(num) {
+				var str = num.toString();
+				var len = num.toString().length;
+				var C_Num = [];
+				for(var i = 0; i < len; i++) {
+					C_Num.push(N[str.charAt(i)]);
+				}
+				return C_Num.join('');
+			}
+			var chinese = convertToChinese(day);
+			oDay.innerHTML = "星 期" + " &nbsp;" + chinese;
+		}
+		setInterval(time, 0);
+	</script>
+	
+</html>
